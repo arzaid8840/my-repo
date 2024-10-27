@@ -66,21 +66,10 @@
       }
 
       img {
-        width: 15%;
+        width: 25%;
         border-radius: 50%;
         border: 5px solid #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      }
-      #animate_img {
-        position: absolute;
-        border: none;
-        box-shadow: none;
-        width: 150px;
-        opacity: 1;
-        height: 150px;
-        margin-top: 100px;
-        left: -50%;
-        animation: slideRight 2s ease-in-out infinite;
       }
 
       @keyframes slideRight {
@@ -94,11 +83,6 @@
       @media (min-width: 370px) {
         img {
           width: 25%;
-        }
-        #animate_img {
-          margin-top: 40px;
-          width: 50px;
-          height: 50px;
         }
       }
     </style>
@@ -117,20 +101,25 @@
           <img src="./public/afzal.jpg" alt="Afzal" />
           <img
             class="animate__animated animate__bounceOutRight"
-            id="animate_img"
             src="./public/heart.jpg"
             title="This heart is for you Sadaf"
-            alt=""
+            alt="love"
+            style="
+              width: 50px;
+              height: 50px;
+              justify-content: center;
+              align-self: center;
+            "
           />
           <img src="./public/sadaf.jpg" alt="Sadaf" />
         </div>
-        <h2>
+        <h2 style="width: auto">
           "I am yearning for the day when I can call you my pious wife, united
           in the most beautiful and halal way. Until then, my heart prays for
           the moment we can walk this path together, guided by faith and love."
         </h2>
         <hr />
-        <h3>
+        <h3 style="width: auto">
           Separated by distance, but always united by heart. No matter how many
           miles lie between us, our love knows no boundaries
         </h3>
